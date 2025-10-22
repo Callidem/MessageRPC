@@ -1,0 +1,2384 @@
+2025/10/21 15:45:38.010581 server.go:329: Servidor RPC iniciando na porta 8932 ...
+2025/10/21 15:45:38.010765 server.go:332: IP principal (rota padrão): 192.168.0.89:8932
+2025/10/21 15:45:38.010946 server.go:335: IP local disponível: 192.168.0.89:8932
+2025/10/21 15:45:46.464640 server.go:354: [CLIENT 1] conectado de 192.168.0.89:56424
+2025/10/21 15:45:49.812309 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 15:45:49.812388 server.go:173: [RPC] CreateUser ok: username=callidem id=1
+2025/10/21 15:45:49.813016 server.go:180: [RPC] GetUser called: Username=callidem
+2025/10/21 15:45:49.813074 server.go:193: [RPC] GetUser ok: id=1 Username=callidem 
+2025/10/21 15:45:49.813369 server.go:200: [RPC] ListUsers called
+2025/10/21 15:45:49.813410 server.go:211: [RPC] ListUsers ok: count=1
+2025/10/21 15:45:50.814334 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:45:50.814408 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:45:51.814202 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:45:51.814329 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:45:52.814953 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:45:52.815027 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:45:53.814529 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:45:53.814613 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:45:54.814192 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:45:54.814306 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:45:55.814800 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:45:55.814869 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:45:56.814249 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:45:56.814317 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:45:57.814732 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:45:57.814804 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:45:58.814276 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:45:58.814365 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:45:59.814093 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:45:59.814160 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:46:00.814052 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:46:00.814138 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:46:01.814523 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 15:46:01.814624 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:46:02.165193 server.go:362: [CLIENT 1] desconectado (192.168.0.89:56424)
+2025/10/21 15:46:05.173973 server.go:354: [CLIENT 2] conectado de 192.168.0.89:54742
+2025/10/21 15:46:12.325367 server.go:152: [RPC] CreateUser called: username=Rubinho
+2025/10/21 15:46:12.325461 server.go:173: [RPC] CreateUser ok: username=Rubinho id=2
+2025/10/21 15:46:12.325988 server.go:180: [RPC] GetUser called: Username=Rubinho
+2025/10/21 15:46:12.326060 server.go:193: [RPC] GetUser ok: id=2 Username=Rubinho 
+2025/10/21 15:46:12.326348 server.go:200: [RPC] ListUsers called
+2025/10/21 15:46:12.326425 server.go:211: [RPC] ListUsers ok: count=2
+2025/10/21 15:46:13.327173 server.go:122: [RPC] GetNewMessages called: user=Rubinho
+2025/10/21 15:46:13.327290 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:46:14.327888 server.go:122: [RPC] GetNewMessages called: user=Rubinho
+2025/10/21 15:46:14.327977 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:46:15.327567 server.go:122: [RPC] GetNewMessages called: user=Rubinho
+2025/10/21 15:46:15.327694 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:46:16.327158 server.go:122: [RPC] GetNewMessages called: user=Rubinho
+2025/10/21 15:46:16.327250 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:46:17.327966 server.go:122: [RPC] GetNewMessages called: user=Rubinho
+2025/10/21 15:46:17.328062 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:46:18.327680 server.go:122: [RPC] GetNewMessages called: user=Rubinho
+2025/10/21 15:46:18.327774 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 15:46:19.327465 server.go:122: [RPC] GetNewMessages called: user=Rubinho
+2025/10/21 15:46:19.327562 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:24:50.325104 server.go:329: Servidor RPC iniciando na porta 8932 ...
+2025/10/21 21:24:50.327866 server.go:332: IP principal (rota padrão): 192.168.0.70:8932
+2025/10/21 21:24:50.328042 server.go:335: IP local disponível: 192.168.0.70:8932
+2025/10/21 21:25:00.191444 server.go:354: [CLIENT 1] conectado de 192.168.0.70:58624
+2025/10/21 21:25:02.373289 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:25:02.373365 server.go:173: [RPC] CreateUser ok: username=callidem id=1
+2025/10/21 21:25:02.373956 server.go:180: [RPC] GetUser called: Username=callidem
+2025/10/21 21:25:02.374000 server.go:193: [RPC] GetUser ok: id=1 Username=callidem 
+2025/10/21 21:25:02.374237 server.go:200: [RPC] ListUsers called
+2025/10/21 21:25:02.374276 server.go:211: [RPC] ListUsers ok: count=1
+2025/10/21 21:25:03.375022 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:03.375094 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:04.375810 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:04.375893 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:05.375470 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:05.375566 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:06.374949 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:06.375116 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:07.374910 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:07.374996 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:08.375579 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:08.375676 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:09.374977 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:09.375071 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:10.375663 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:10.375759 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:11.375366 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:11.375469 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:12.375141 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:12.375228 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:13.375767 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:13.375863 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:14.374970 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:14.375063 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:15.374969 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:15.375094 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:16.374805 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:16.374889 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:17.374920 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:17.375014 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:18.375311 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:18.375407 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:19.374986 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:19.375069 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:20.375595 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:20.375686 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:21.375180 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:21.375322 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:22.374879 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:25:22.374976 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:25:22.776670 server.go:362: [CLIENT 1] desconectado (192.168.0.70:58624)
+2025/10/21 21:33:27.195362 server.go:329: Servidor RPC iniciando na porta 8932 ...
+2025/10/21 21:33:27.195577 server.go:332: IP principal (rota padrão): 192.168.0.70:8932
+2025/10/21 21:33:27.195799 server.go:335: IP local disponível: 192.168.0.70:8932
+2025/10/21 21:33:29.717158 server.go:354: [CLIENT 1] conectado de 192.168.0.70:34014
+2025/10/21 21:33:31.635750 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:33:31.635969 server.go:173: [RPC] CreateUser ok: username=callidem id=1
+2025/10/21 21:33:31.636562 server.go:180: [RPC] GetUser called: Username=callidem
+2025/10/21 21:33:31.636609 server.go:193: [RPC] GetUser ok: id=1 Username=callidem 
+2025/10/21 21:33:31.636931 server.go:200: [RPC] ListUsers called
+2025/10/21 21:33:31.636963 server.go:211: [RPC] ListUsers ok: count=1
+2025/10/21 21:33:32.637831 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:33:32.637909 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:33:32.811910 server.go:362: [CLIENT 1] desconectado (192.168.0.70:34014)
+2025/10/21 21:33:51.655636 server.go:354: [CLIENT 2] conectado de 192.168.0.70:38878
+2025/10/21 21:33:55.459318 server.go:152: [RPC] CreateUser called: username=rubao
+2025/10/21 21:33:55.459432 server.go:173: [RPC] CreateUser ok: username=rubao id=2
+2025/10/21 21:33:55.459989 server.go:180: [RPC] GetUser called: Username=rubao
+2025/10/21 21:33:55.460061 server.go:193: [RPC] GetUser ok: id=2 Username=rubao 
+2025/10/21 21:33:55.460372 server.go:200: [RPC] ListUsers called
+2025/10/21 21:33:55.460438 server.go:211: [RPC] ListUsers ok: count=2
+2025/10/21 21:33:56.461220 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:33:56.461317 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:33:57.462067 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:33:57.462160 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:33:58.461742 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:33:58.461850 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:33:59.461405 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:33:59.461502 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:33:59.635489 server.go:84: [RPC] SendMessage called: UserMessage = oi, Sender= rubao, Receiver= callidem
+2025/10/21 21:39:10.705897 server.go:339: Servidor RPC iniciando na porta 8932 ...
+2025/10/21 21:39:10.706184 server.go:342: IP principal (rota padrão): 192.168.0.70:8932
+2025/10/21 21:39:10.706373 server.go:345: IP local disponível: 192.168.0.70:8932
+2025/10/21 21:39:17.235191 server.go:364: [CLIENT 1] conectado de 192.168.0.70:54360
+2025/10/21 21:39:19.325932 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:39:19.326001 server.go:179: [RPC] CreateUser ok: username=callidem id=1
+2025/10/21 21:39:19.326597 server.go:186: [RPC] GetUser called: Username=callidem
+2025/10/21 21:39:19.326639 server.go:199: [RPC] GetUser ok: id=1 Username=callidem 
+2025/10/21 21:39:19.326923 server.go:206: [RPC] ListUsers called
+2025/10/21 21:39:19.326957 server.go:217: [RPC] ListUsers ok: count=1
+2025/10/21 21:39:20.327748 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:20.327816 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:21.327677 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:21.327805 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:22.328389 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:22.328484 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:23.328012 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:23.328123 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:24.327648 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:24.327734 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:25.328268 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:25.328357 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:26.327898 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:26.328021 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:27.327709 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:27.327796 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:28.328320 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:28.328409 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:29.327980 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:29.328059 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:29.400524 server.go:84: [RPC] SendMessage called: UserMessage = a, Sender= callidem, Receiver= oi
+2025/10/21 21:39:29.400604 server.go:95: [RPC] SendMessage erro: usuário 'oi' não existe
+2025/10/21 21:39:30.328195 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:30.328283 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:31.327969 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:31.328062 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:32.328088 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:32.328235 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:33.327896 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:33.328029 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:34.327685 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:34.327771 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:35.328475 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:35.328602 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:36.328181 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:36.328268 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:37.327887 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:37.327974 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:38.327593 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:38.327718 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:39.328382 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:39.328482 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:40.328051 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:40.328130 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:41.327707 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:41.327838 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:42.328428 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:42.328519 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:43.328003 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:43.328117 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:44.327658 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:39:44.327739 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:44.345748 server.go:372: [CLIENT 1] desconectado (192.168.0.70:54360)
+2025/10/21 21:39:46.908580 server.go:364: [CLIENT 2] conectado de 192.168.0.70:40506
+2025/10/21 21:39:48.363126 server.go:152: [RPC] CreateUser called: username=rubao
+2025/10/21 21:39:48.363215 server.go:179: [RPC] CreateUser ok: username=rubao id=2
+2025/10/21 21:39:48.363729 server.go:186: [RPC] GetUser called: Username=rubao
+2025/10/21 21:39:48.363793 server.go:199: [RPC] GetUser ok: id=2 Username=rubao 
+2025/10/21 21:39:48.364159 server.go:206: [RPC] ListUsers called
+2025/10/21 21:39:48.364231 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:39:49.365028 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:39:49.365131 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:50.364998 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:39:50.365084 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:51.365623 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:39:51.365712 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:52.365327 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:39:52.365427 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:53.364838 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:39:53.364915 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:54.293372 server.go:84: [RPC] SendMessage called: UserMessage = dale meuu, Sender= rubao, Receiver= callidem
+2025/10/21 21:39:54.293495 server.go:116: [RPC] SendMessage ok: queued for callidem (queue=1)
+2025/10/21 21:39:54.365308 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:39:54.365400 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:55.365007 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:39:55.365128 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:56.365032 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:39:56.365132 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:57.365750 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:39:57.365841 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:58.365371 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:39:58.365463 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:39:59.365069 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:39:59.365151 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:00.365728 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:40:00.365814 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:01.365299 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:40:01.365364 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:02.364988 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:40:02.365099 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:03.365692 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:40:03.365782 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:04.365312 server.go:122: [RPC] GetNewMessages called: user=rubao
+2025/10/21 21:40:04.365394 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:04.793271 server.go:372: [CLIENT 2] desconectado (192.168.0.70:40506)
+2025/10/21 21:40:07.985479 server.go:364: [CLIENT 3] conectado de 192.168.0.70:53644
+2025/10/21 21:40:10.077221 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:40:10.077307 server.go:166: [RPC] Recovered session for username=callidem id=1
+2025/10/21 21:40:10.077854 server.go:186: [RPC] GetUser called: Username=callidem
+2025/10/21 21:40:10.077918 server.go:199: [RPC] GetUser ok: id=1 Username=callidem 
+2025/10/21 21:40:10.078224 server.go:206: [RPC] ListUsers called
+2025/10/21 21:40:10.078279 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:40:11.079030 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:11.079155 server.go:145: [RPC] GetNewMessages ok: 1 msgs entregues, fila zerada
+2025/10/21 21:40:12.078920 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:12.079066 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:13.079734 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:13.079835 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:14.079374 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:14.079474 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:15.079075 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:15.079168 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:16.079752 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:16.079845 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:17.079507 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:17.079602 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:18.079303 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:18.079413 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:19.079083 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:19.079167 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:20.079829 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:20.079955 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:21.078996 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:21.079087 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:22.079686 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:22.079801 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:23.078866 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:23.078970 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:24.079607 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:24.079710 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:25.078973 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:25.079072 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:26.079046 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:26.079131 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:27.079666 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:27.079770 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:28.079022 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:28.079117 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:29.078990 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:29.079085 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:30.079742 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:30.079867 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:31.079484 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:31.079572 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:32.079328 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:32.079427 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:33.078932 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:33.079023 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:34.079715 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:34.079811 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:35.079349 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:35.079479 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:36.079109 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:36.079236 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:37.078994 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:37.079082 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:38.079041 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:38.079140 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:39.078880 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:39.078964 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:40.079662 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:40.079782 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:41.079385 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:41.079525 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:42.078781 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:42.078880 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:43.079337 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:43.079442 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:44.079138 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:44.079235 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:44.107786 server.go:84: [RPC] SendMessage called: UserMessage = salve patrao, Sender= callidem, Receiver= rubao
+2025/10/21 21:40:44.107887 server.go:116: [RPC] SendMessage ok: queued for rubao (queue=1)
+2025/10/21 21:40:45.078825 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:45.078907 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:46.079019 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:46.079119 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:47.079690 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:47.079801 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:48.078892 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:48.079023 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:49.078897 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:49.078982 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:49.957598 server.go:372: [CLIENT 3] desconectado (192.168.0.70:53644)
+2025/10/21 21:40:53.590807 server.go:364: [CLIENT 4] conectado de 192.168.0.70:55210
+2025/10/21 21:40:55.395576 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:40:55.395661 server.go:166: [RPC] Recovered session for username=callidem id=1
+2025/10/21 21:40:55.396189 server.go:186: [RPC] GetUser called: Username=callidem
+2025/10/21 21:40:55.396264 server.go:199: [RPC] GetUser ok: id=1 Username=callidem 
+2025/10/21 21:40:55.396620 server.go:206: [RPC] ListUsers called
+2025/10/21 21:40:55.396678 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:40:56.397471 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:56.397558 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:57.398271 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:57.398373 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:58.397948 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:58.398042 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:40:59.397765 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:40:59.397863 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:00.397451 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:00.397533 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:01.398128 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:01.398222 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:02.397798 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:02.397887 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:03.397490 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:03.397580 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:04.397921 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:04.398018 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:05.397569 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:05.397686 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:06.398263 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:06.398346 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:07.397914 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:07.397997 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:08.397480 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:08.397562 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:09.398233 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:09.398326 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:10.397837 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:10.397914 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:11.397441 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:11.397537 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:12.398240 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:12.398331 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:13.397955 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:13.398049 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:14.397688 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:14.397779 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:15.398091 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:15.398193 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:16.397803 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:16.397898 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:17.397548 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:17.397676 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:18.398219 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:18.398310 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:19.397663 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:19.397731 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:20.398081 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:20.398163 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:21.397403 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:21.397479 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:22.398013 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:22.398104 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:23.397543 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:23.397629 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:24.398249 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:24.398349 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:25.397845 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:25.397947 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:26.397200 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:26.397272 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:27.397800 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:27.397918 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:28.397691 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:28.397836 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:29.397431 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:29.397518 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:30.398232 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:30.398321 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:31.397736 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:31.397818 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:32.397303 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:32.397402 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:33.397789 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:33.397861 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:34.397268 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:34.397349 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:35.397854 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:35.397998 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:36.397621 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:36.397710 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:37.397361 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:37.397452 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:38.397988 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:38.398075 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:39.397584 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:39.397705 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:40.397203 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:40.397293 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:41.397712 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:41.397787 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:42.398219 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:42.398304 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:43.397836 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:43.397932 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:44.397607 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:44.397734 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:45.397473 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:45.397577 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:46.398099 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:46.398173 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:47.397998 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:47.398083 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:48.397571 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:48.397673 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:49.398179 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:49.398262 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:50.397698 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:50.397777 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:51.398145 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:51.398244 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:52.397813 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:52.397927 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:53.397593 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:53.397685 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:54.398298 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:54.398392 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:55.397935 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:55.398070 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:56.397727 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:56.397816 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:57.397515 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:57.397648 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:58.398339 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:58.398450 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:41:59.398019 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:41:59.398144 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:00.397713 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:00.397810 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:01.397264 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:01.397354 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:02.397779 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:02.397856 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:03.397284 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:03.397364 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:04.397740 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:04.397817 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:05.397320 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:05.397409 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:06.397486 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:06.397574 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:07.398267 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:07.398349 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:08.397787 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:08.397891 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:09.397266 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:09.397365 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:10.397789 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:10.397875 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:11.397973 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:11.398048 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:12.397467 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:12.397552 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:13.398043 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:13.398139 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:14.397631 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:14.397748 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:15.397219 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:15.397305 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:16.397679 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:16.397763 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:17.398145 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:17.398224 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:18.397791 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:18.397881 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:19.397397 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:19.397513 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:20.397439 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:20.397522 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:21.398122 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:21.398212 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:22.397728 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:22.397823 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:23.397684 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:23.397766 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:24.398175 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:24.398257 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:25.397674 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:25.397836 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:26.397329 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:26.397400 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:27.397741 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:27.397823 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:28.397247 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:28.397317 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:29.397707 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:29.397782 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:30.398219 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:30.398295 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:31.397737 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:31.397811 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:32.397251 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:32.397322 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:33.397762 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:33.397847 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:34.397240 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:34.397319 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:35.397822 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:35.397917 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:36.397641 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:36.397737 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:37.397261 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:37.397335 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:38.397743 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:38.397810 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:39.397200 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:39.397284 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:40.397678 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:40.397746 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:41.398111 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:41.398179 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:42.397483 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:42.397555 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:43.397972 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:43.398061 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:44.397558 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:44.397633 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:45.398019 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:45.398094 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:46.397554 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:46.397664 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:47.398280 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:47.398415 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:48.397886 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:48.398025 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:49.397294 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:49.397420 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:50.397989 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:50.398076 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:51.397754 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:51.397837 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:52.397280 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:52.397449 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:53.398101 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:42:53.398201 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:42:54.106360 server.go:372: [CLIENT 4] desconectado (192.168.0.70:55210)
+2025/10/21 21:43:02.446835 server.go:339: Servidor RPC iniciando na porta 8932 ...
+2025/10/21 21:43:02.447166 server.go:342: IP principal (rota padrão): 192.168.0.70:8932
+2025/10/21 21:43:02.447346 server.go:345: IP local disponível: 192.168.0.70:8932
+2025/10/21 21:43:08.415172 server.go:364: [CLIENT 1] conectado de 192.168.0.70:56154
+2025/10/21 21:43:10.778819 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:43:10.778943 server.go:179: [RPC] CreateUser ok: username=callidem id=1
+2025/10/21 21:43:10.779659 server.go:186: [RPC] GetUser called: Username=callidem
+2025/10/21 21:43:10.779715 server.go:199: [RPC] GetUser ok: id=1 Username=callidem 
+2025/10/21 21:43:10.780036 server.go:206: [RPC] ListUsers called
+2025/10/21 21:43:10.780082 server.go:217: [RPC] ListUsers ok: count=1
+2025/10/21 21:43:11.781284 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:11.781356 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:12.782018 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:12.782102 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:13.781687 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:13.781779 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:14.781288 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:14.781384 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:15.781365 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:15.781487 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:16.782181 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:16.782319 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:17.781981 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:17.782068 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:18.699318 server.go:372: [CLIENT 1] desconectado (192.168.0.70:56154)
+2025/10/21 21:43:20.238144 server.go:364: [CLIENT 2] conectado de 192.168.0.70:48704
+2025/10/21 21:43:22.821445 server.go:152: [RPC] CreateUser called: username=rubelas
+2025/10/21 21:43:22.821522 server.go:179: [RPC] CreateUser ok: username=rubelas id=2
+2025/10/21 21:43:22.822002 server.go:186: [RPC] GetUser called: Username=rubelas
+2025/10/21 21:43:22.822071 server.go:199: [RPC] GetUser ok: id=2 Username=rubelas 
+2025/10/21 21:43:22.822482 server.go:206: [RPC] ListUsers called
+2025/10/21 21:43:22.822575 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:43:23.823375 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:43:23.823477 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:24.823272 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:43:24.823358 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:25.823984 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:43:25.824088 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:26.823683 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:43:26.823764 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:27.824030 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:43:27.824116 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:28.186558 server.go:84: [RPC] SendMessage called: UserMessage = buenas cpx, Sender= rubelas, Receiver= callidem
+2025/10/21 21:43:28.186636 server.go:116: [RPC] SendMessage ok: queued for callidem (queue=1)
+2025/10/21 21:43:28.823994 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:43:28.824104 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:29.823694 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:43:29.823821 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:30.547002 server.go:372: [CLIENT 2] desconectado (192.168.0.70:48704)
+2025/10/21 21:43:32.537378 server.go:364: [CLIENT 3] conectado de 192.168.0.70:33828
+2025/10/21 21:43:34.473945 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:43:34.474025 server.go:166: [RPC] Recovered session for username=callidem id=1
+2025/10/21 21:43:34.474586 server.go:186: [RPC] GetUser called: Username=callidem
+2025/10/21 21:43:34.474654 server.go:199: [RPC] GetUser ok: id=1 Username=callidem 
+2025/10/21 21:43:34.475002 server.go:206: [RPC] ListUsers called
+2025/10/21 21:43:34.475078 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:43:35.476109 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:35.476201 server.go:145: [RPC] GetNewMessages ok: 1 msgs entregues, fila zerada
+2025/10/21 21:43:36.476044 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:36.476127 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:37.476107 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:37.476283 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:38.475956 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:38.476088 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:39.475727 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:39.475824 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:40.476367 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:40.476465 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:41.476056 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:41.476174 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:42.475839 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:42.475921 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:43.476465 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:43.476552 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:44.476126 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:44.476213 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:45.475912 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:45.476016 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:46.476532 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:46.476635 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:47.476247 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:47.476378 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:48.476011 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:48.476127 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:49.452356 server.go:84: [RPC] SendMessage called: UserMessage = qvs patraooo, Sender= callidem, Receiver= rubelas
+2025/10/21 21:43:49.452443 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=1)
+2025/10/21 21:43:49.476038 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:49.476109 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:50.476597 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:50.476704 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:51.476268 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:51.476369 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:52.476018 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:52.476098 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:53.475685 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:53.475781 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:54.475834 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:54.475955 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:55.476529 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:55.476669 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:56.476220 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:56.476307 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:57.475988 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:57.476139 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:58.475885 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:58.475971 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:43:59.476396 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:43:59.476482 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:00.475895 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:44:00.475986 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:01.475982 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:44:01.476099 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:02.476651 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:44:02.476733 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:03.476272 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:44:03.476378 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:04.476081 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:44:04.476188 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:05.475839 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:44:05.475946 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:06.476541 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:44:06.476633 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:07.476146 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:44:07.476263 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:08.475784 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:44:08.475917 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:08.766189 server.go:84: [RPC] SendMessage called: UserMessage = vmdl hj cineminha??, Sender= callidem, Receiver= rubelas
+2025/10/21 21:44:08.766300 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=2)
+2025/10/21 21:44:09.475605 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:44:09.475758 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:10.476401 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:44:10.476501 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:10.927066 server.go:372: [CLIENT 3] desconectado (192.168.0.70:33828)
+2025/10/21 21:44:13.768331 server.go:364: [CLIENT 4] conectado de 192.168.0.70:37858
+2025/10/21 21:44:16.533319 server.go:152: [RPC] CreateUser called: username=rubelas
+2025/10/21 21:44:16.533399 server.go:166: [RPC] Recovered session for username=rubelas id=2
+2025/10/21 21:44:16.533994 server.go:186: [RPC] GetUser called: Username=rubelas
+2025/10/21 21:44:16.534055 server.go:199: [RPC] GetUser ok: id=2 Username=rubelas 
+2025/10/21 21:44:16.534332 server.go:206: [RPC] ListUsers called
+2025/10/21 21:44:16.534392 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:44:17.535804 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:17.535895 server.go:145: [RPC] GetNewMessages ok: 2 msgs entregues, fila zerada
+2025/10/21 21:44:18.535931 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:18.536021 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:19.536696 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:19.536784 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:20.536078 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:20.536167 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:21.536493 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:21.536615 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:22.536273 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:22.536355 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:23.536056 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:23.536170 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:24.535790 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:24.535924 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:25.536589 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:25.536677 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:26.535896 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:26.536011 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:27.536641 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:27.536746 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:28.535806 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:28.535910 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:29.535888 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:29.536008 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:30.535960 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:30.536053 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:31.535921 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:31.536008 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:32.536562 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:32.536651 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:33.535718 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:33.535861 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:34.535947 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:34.536035 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:35.536609 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:35.536708 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:36.536355 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:36.536444 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:37.536097 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:37.536192 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:38.535922 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:38.536010 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:39.535608 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:39.535739 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:40.536290 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:40.536376 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:41.536000 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:41.536162 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:42.535944 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:42.536032 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:43.535831 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:43.535931 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:44.536035 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:44.536108 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:45.536665 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:45.536774 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:46.536162 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:46.536255 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:47.535868 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:47.535961 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:48.535722 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:48.535812 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:49.536427 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:49.536513 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:50.536108 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:50.536193 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:51.535802 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:51.535906 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:52.536354 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:52.536433 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:53.535885 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:53.535961 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:54.536602 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:54.536705 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:55.536303 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:55.536394 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:56.535892 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:56.535968 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:57.536385 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:57.536495 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:58.535953 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:58.536031 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:44:59.535899 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:44:59.535977 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:00.536522 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:00.536608 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:01.536141 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:01.536244 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:02.535904 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:02.536000 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:03.536509 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:03.536586 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:04.536119 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:04.536220 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:05.536028 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:05.536115 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:06.535875 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:06.535957 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:07.536519 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:07.536611 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:08.536280 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:08.536365 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:09.535802 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:09.535930 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:10.535901 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:10.536001 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:11.536312 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:11.536400 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:12.535803 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:12.535945 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:13.536507 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:13.536604 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:14.536023 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:14.536122 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:15.535785 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:15.535882 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:16.536333 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:16.536444 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:17.536012 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:17.536106 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:18.536180 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:18.536274 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:19.535794 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:19.535883 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:20.536144 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:20.536229 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:21.535908 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:21.535989 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:22.536437 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:22.536520 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:23.535884 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:23.536002 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:24.536396 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:24.536485 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:25.535929 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:25.536020 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:26.536473 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:26.536556 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:27.535814 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:27.535897 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:28.536242 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:28.536314 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:29.535814 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:29.535893 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:30.535680 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:30.535779 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:31.536219 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:31.536314 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:32.535889 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:32.535969 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:33.536413 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:33.536501 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:34.535592 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:34.535672 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:35.536145 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:35.536259 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:36.535658 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:36.535735 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:37.535783 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:37.535913 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:38.535663 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:38.535743 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:39.535714 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:39.535804 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:40.535595 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:40.535687 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:41.535947 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:41.536041 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:42.535897 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:42.535971 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:43.535954 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:43.536031 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:44.536452 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:44.536533 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:45.535933 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:45.536009 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:46.536377 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:46.536461 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:47.535918 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:47.536003 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:48.536515 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:48.536621 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:49.536195 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:49.536351 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:50.536075 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:50.536193 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:51.535781 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:51.535871 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:52.536364 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:52.536480 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:53.535855 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:53.535949 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:54.536333 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:54.536426 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:55.535743 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:55.535855 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:56.536402 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:56.536489 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:57.536012 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:57.536097 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:58.536758 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:58.536889 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:45:59.536378 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:45:59.536451 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:00.536138 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:00.536232 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:01.536073 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:01.536213 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:02.535758 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:02.535865 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:03.536382 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:03.536475 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:04.536088 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:04.536178 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:05.535952 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:05.536031 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:06.536738 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:06.536864 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:07.536452 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:07.536573 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:08.535990 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:08.536068 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:09.536552 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:09.536663 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:10.536208 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:10.536295 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:11.535864 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:11.535953 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:12.536286 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:12.538100 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:13.536666 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:13.536766 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:14.536267 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:14.536349 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:15.535925 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:15.536055 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:16.536458 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:16.536526 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:17.535932 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:17.536007 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:18.536419 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:18.536498 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:19.535968 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:19.536040 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:20.535715 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:20.535807 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:21.536251 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:21.536348 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:22.535893 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:22.535984 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:23.536501 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:23.536607 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:24.536205 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:24.536304 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:25.535862 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:25.536048 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:26.536624 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:26.536739 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:27.536283 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:27.536436 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:28.535964 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:28.536063 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:29.536553 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:29.536644 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:30.536242 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:30.536325 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:31.535741 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:31.535855 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:32.536379 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:32.536503 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:33.536036 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:33.536121 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:34.535954 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:46:34.536076 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:46:35.181459 server.go:372: [CLIENT 4] desconectado (192.168.0.70:37858)
+2025/10/21 21:48:37.108569 server.go:339: Servidor RPC iniciando na porta 8932 ...
+2025/10/21 21:48:37.108779 server.go:342: IP principal (rota padrão): 192.168.0.70:8932
+2025/10/21 21:48:37.109009 server.go:345: IP local disponível: 192.168.0.70:8932
+2025/10/21 21:48:40.621888 server.go:339: Servidor RPC iniciando na porta 8932 ...
+2025/10/21 21:48:40.622071 server.go:342: IP principal (rota padrão): 192.168.0.70:8932
+2025/10/21 21:48:40.622239 server.go:345: IP local disponível: 192.168.0.70:8932
+2025/10/21 21:48:46.102631 server.go:364: [CLIENT 1] conectado de 192.168.0.70:50480
+2025/10/21 21:48:48.615288 server.go:152: [RPC] CreateUser called: username=rubelas
+2025/10/21 21:48:48.615357 server.go:179: [RPC] CreateUser ok: username=rubelas id=1
+2025/10/21 21:48:48.615979 server.go:186: [RPC] GetUser called: Username=rubelas
+2025/10/21 21:48:48.616032 server.go:199: [RPC] GetUser ok: id=1 Username=rubelas 
+2025/10/21 21:48:48.616380 server.go:206: [RPC] ListUsers called
+2025/10/21 21:48:48.616431 server.go:217: [RPC] ListUsers ok: count=1
+2025/10/21 21:48:49.617345 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:48:49.617419 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:48:50.085530 server.go:372: [CLIENT 1] desconectado (192.168.0.70:50480)
+2025/10/21 21:48:50.819923 server.go:364: [CLIENT 2] conectado de 192.168.0.70:60520
+2025/10/21 21:48:51.983405 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:48:51.983484 server.go:179: [RPC] CreateUser ok: username=callidem id=2
+2025/10/21 21:48:51.984106 server.go:186: [RPC] GetUser called: Username=callidem
+2025/10/21 21:48:51.984176 server.go:199: [RPC] GetUser ok: id=2 Username=callidem 
+2025/10/21 21:48:51.984455 server.go:206: [RPC] ListUsers called
+2025/10/21 21:48:51.984511 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:48:52.985393 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:48:52.985494 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:48:53.985177 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:48:53.985265 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:48:54.985805 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:48:54.985907 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:48:55.985465 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:48:55.985555 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:48:56.985236 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:48:56.985336 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:48:57.389249 server.go:84: [RPC] SendMessage called: UserMessage = salve rei, Sender= callidem, Receiver= rubelas
+2025/10/21 21:48:57.389314 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=1)
+2025/10/21 21:48:57.985545 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:48:57.985633 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:48:58.985169 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:48:58.985253 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:48:59.985771 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:48:59.985879 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:00.985372 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:49:00.985462 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:01.248969 server.go:372: [CLIENT 2] desconectado (192.168.0.70:60520)
+2025/10/21 21:49:02.629775 server.go:364: [CLIENT 3] conectado de 192.168.0.70:39474
+2025/10/21 21:49:03.907666 server.go:152: [RPC] CreateUser called: username=rubelas
+2025/10/21 21:49:03.907779 server.go:166: [RPC] Recovered session for username=rubelas id=1
+2025/10/21 21:49:03.908411 server.go:186: [RPC] GetUser called: Username=rubelas
+2025/10/21 21:49:03.908469 server.go:199: [RPC] GetUser ok: id=1 Username=rubelas 
+2025/10/21 21:49:03.908709 server.go:206: [RPC] ListUsers called
+2025/10/21 21:49:03.908758 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:49:04.909559 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:04.909649 server.go:145: [RPC] GetNewMessages ok: 1 msgs entregues, fila zerada
+2025/10/21 21:49:05.910322 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:05.910420 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:06.909976 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:06.910070 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:07.909579 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:07.909673 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:08.910288 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:08.910378 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:09.909936 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:09.910029 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:10.909686 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:10.909787 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:11.909266 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:11.916317 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:12.909900 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:12.910004 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:13.909530 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:13.909644 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:14.910296 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:14.910385 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:15.909897 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:15.910071 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:16.909646 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:16.909734 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:17.909452 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:17.909569 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:18.910161 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:18.910255 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:19.909792 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:19.909879 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:20.909314 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:20.909425 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:21.909802 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:21.909897 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:22.909590 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:22.909689 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:23.909351 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:23.909422 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:24.909884 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:24.909962 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:25.909563 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:25.909680 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:26.910236 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:26.910358 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:27.909884 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:27.909954 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:28.909476 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:28.909618 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:29.910192 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:29.910264 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:30.909845 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:30.909976 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:31.909549 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:31.909652 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:32.909412 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:32.909541 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:33.910137 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:33.910203 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:34.909773 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:34.909891 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:35.909509 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:35.909586 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:36.910174 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:36.910266 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:37.909970 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:37.910069 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:38.909830 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:38.909921 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:39.909643 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:39.909729 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:40.909442 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:40.909528 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:41.910156 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:41.910248 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:42.909712 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:42.909800 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:43.909441 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:43.909524 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:44.910162 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:44.910247 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:45.909933 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:45.910024 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:46.909766 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:46.909894 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:47.909797 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:47.909920 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:48.909609 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:48.909696 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:49.909291 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:49.909367 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:50.909945 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:50.910033 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:51.909716 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:51.909809 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:52.909641 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:52.909726 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:53.910371 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:53.910463 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:54.909991 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:54.910077 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:55.909744 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:55.909850 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:56.909503 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:56.909596 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:57.910276 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:57.910354 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:58.909965 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:58.910049 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:49:59.909684 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:49:59.909792 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:00.909428 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:00.909517 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:01.910197 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:01.910293 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:02.086428 server.go:84: [RPC] SendMessage called: UserMessage = testando varias msg aki, Sender= rubelas, Receiver= rubelas
+2025/10/21 21:50:02.086568 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=1)
+2025/10/21 21:50:02.909542 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:02.909663 server.go:145: [RPC] GetNewMessages ok: 1 msgs entregues, fila zerada
+2025/10/21 21:50:03.910291 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:03.910416 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:04.909925 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:04.910061 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:05.909581 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:05.909667 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:06.910299 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:06.910433 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:07.909970 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:07.910065 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:08.909687 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:08.909810 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:09.909477 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:09.909569 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:10.910252 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:10.910347 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:11.909831 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:11.909944 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:12.909576 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:12.909673 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:13.910214 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:13.910296 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:14.909940 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:14.910022 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:15.909558 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:15.909678 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:16.804082 server.go:84: [RPC] SendMessage called: UserMessage = carai falei comigo mesmo, Sender= rubelas, Receiver= rubelas
+2025/10/21 21:50:16.804160 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=1)
+2025/10/21 21:50:16.909921 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:16.910009 server.go:145: [RPC] GetNewMessages ok: 1 msgs entregues, fila zerada
+2025/10/21 21:50:17.909618 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:17.909703 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:18.909404 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:18.909498 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:19.910021 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:19.910116 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:20.909716 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:20.909815 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:21.909560 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:21.909647 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:22.910719 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:22.910824 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:23.909420 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:23.909510 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:24.910210 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:24.910289 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:25.909914 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:25.910034 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:26.909803 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:26.909912 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:27.909493 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:27.909591 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:28.910184 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:28.910310 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:29.909926 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:29.910057 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:30.909546 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:30.909633 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:31.910010 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:31.910081 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:32.909448 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:32.909528 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:33.910003 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:33.910092 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:34.909719 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:34.909808 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:35.909392 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:35.909494 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:36.909804 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:36.909884 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:37.910112 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:37.910198 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:38.909658 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:38.909739 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:39.655540 server.go:372: [CLIENT 3] desconectado (192.168.0.70:39474)
+2025/10/21 21:50:44.233630 server.go:364: [CLIENT 4] conectado de 192.168.0.70:49104
+2025/10/21 21:50:46.308285 server.go:152: [RPC] CreateUser called: username=rubelas
+2025/10/21 21:50:46.308369 server.go:166: [RPC] Recovered session for username=rubelas id=1
+2025/10/21 21:50:46.308944 server.go:186: [RPC] GetUser called: Username=rubelas
+2025/10/21 21:50:46.309049 server.go:199: [RPC] GetUser ok: id=1 Username=rubelas 
+2025/10/21 21:50:46.309301 server.go:206: [RPC] ListUsers called
+2025/10/21 21:50:46.309351 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:50:47.310133 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:47.310223 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:48.310041 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:48.310168 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:49.310665 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:49.310764 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:50.310264 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:50.310408 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:51.310066 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:51.310155 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:52.310866 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:52.310966 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:53.310619 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:53.310710 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:54.310331 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:54.310426 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:55.310151 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:55.310247 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:56.310806 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:56.310899 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:56.366001 server.go:84: [RPC] SendMessage called: UserMessage = mensagiii, Sender= rubelas, Receiver= rubelas
+2025/10/21 21:50:56.366082 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=1)
+2025/10/21 21:50:57.310556 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:57.310658 server.go:145: [RPC] GetNewMessages ok: 1 msgs entregues, fila zerada
+2025/10/21 21:50:58.310414 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:58.310549 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:50:59.310306 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:50:59.310403 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:00.310150 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:00.310276 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:01.310006 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:01.310104 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:02.310849 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:02.310985 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:03.310587 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:03.310710 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:04.310238 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:04.310317 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:05.310726 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:05.310808 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:06.310367 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:06.310459 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:07.310084 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:07.310184 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:08.309956 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:08.310036 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:09.310500 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:09.310585 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:10.310218 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:10.310312 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:10.789315 server.go:84: [RPC] SendMessage called: UserMessage = ta bugueidis, Sender= rubelas, Receiver= rubelas
+2025/10/21 21:51:10.789432 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=1)
+2025/10/21 21:51:11.310743 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:11.310839 server.go:145: [RPC] GetNewMessages ok: 1 msgs entregues, fila zerada
+2025/10/21 21:51:12.310403 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:12.310525 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:13.310117 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:13.310236 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:14.310760 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:14.310848 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:15.310305 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:15.310390 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:16.309795 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:16.309867 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:17.310320 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:17.310395 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:18.310025 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:18.310102 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:19.310573 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:19.310654 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:20.310208 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:20.310295 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:21.311063 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:21.311156 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:22.310810 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:22.310907 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:23.310591 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:23.310712 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:24.310205 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:24.310281 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:24.992838 server.go:84: [RPC] SendMessage called: UserMessage = bugadaço esse servi, Sender= rubelas, Receiver= callidem
+2025/10/21 21:51:24.992942 server.go:116: [RPC] SendMessage ok: queued for callidem (queue=1)
+2025/10/21 21:51:25.309989 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:25.310108 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:26.310815 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:26.310900 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:27.310430 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:51:27.310569 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:27.537587 server.go:372: [CLIENT 4] desconectado (192.168.0.70:49104)
+2025/10/21 21:51:29.570137 server.go:364: [CLIENT 5] conectado de 192.168.0.70:48948
+2025/10/21 21:51:30.817008 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:51:30.817090 server.go:166: [RPC] Recovered session for username=callidem id=2
+2025/10/21 21:51:30.817731 server.go:186: [RPC] GetUser called: Username=callidem
+2025/10/21 21:51:30.817802 server.go:199: [RPC] GetUser ok: id=2 Username=callidem 
+2025/10/21 21:51:30.818089 server.go:206: [RPC] ListUsers called
+2025/10/21 21:51:30.818149 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:51:31.818994 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:51:31.819125 server.go:145: [RPC] GetNewMessages ok: 1 msgs entregues, fila zerada
+2025/10/21 21:51:32.819013 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:51:32.819104 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:33.819652 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:51:33.819762 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:34.819213 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:51:34.819305 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:35.818852 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:51:35.818934 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:36.818912 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:51:36.819014 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:37.804049 server.go:84: [RPC] SendMessage called: UserMessage = beii, Sender= callidem, Receiver= rubelas
+2025/10/21 21:51:37.804129 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=1)
+2025/10/21 21:51:37.818630 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:51:37.818704 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:38.821033 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:51:38.821120 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:39.818868 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:51:39.818974 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:40.819733 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:51:40.819822 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:51:40.862571 server.go:372: [CLIENT 5] desconectado (192.168.0.70:48948)
+2025/10/21 21:53:45.186024 server.go:364: [CLIENT 6] conectado de 192.168.0.70:54388
+2025/10/21 21:53:47.674436 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:53:47.674538 server.go:166: [RPC] Recovered session for username=callidem id=2
+2025/10/21 21:53:47.675034 server.go:186: [RPC] GetUser called: Username=callidem
+2025/10/21 21:53:47.675141 server.go:199: [RPC] GetUser ok: id=2 Username=callidem 
+2025/10/21 21:53:47.675417 server.go:206: [RPC] ListUsers called
+2025/10/21 21:53:47.675601 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:53:48.676287 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:48.676349 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:53:49.676768 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:49.676836 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:53:50.676376 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:50.676469 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:53:51.677000 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:51.677091 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:53:52.676667 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:52.676769 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:53:53.676248 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:53.676328 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:53:54.676679 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:54.676751 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:53:55.676398 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:55.676499 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:53:56.677070 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:56.677140 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:53:57.676570 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:57.676644 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:53:58.677118 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:58.677206 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:53:59.676836 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:53:59.676960 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:00.676560 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:00.676683 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:01.155036 server.go:84: [RPC] SendMessage called: UserMessage = desbugou sera? corrigi umas parada aki, Sender= callidem, Receiver= rubelas
+2025/10/21 21:54:01.155127 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=2)
+2025/10/21 21:54:01.676336 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:01.676450 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:02.677056 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:02.677192 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:03.676781 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:03.676862 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:04.676506 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:04.676592 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:05.676349 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:05.676451 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:06.676999 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:06.677088 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:07.676723 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:07.676844 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:08.644281 server.go:84: [RPC] SendMessage called: UserMessage = avisaí, Sender= callidem, Receiver= rubelas
+2025/10/21 21:54:08.644375 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=3)
+2025/10/21 21:54:08.676967 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:08.677041 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:09.676595 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:09.676686 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:09.976727 server.go:372: [CLIENT 6] desconectado (192.168.0.70:54388)
+2025/10/21 21:54:10.872979 server.go:364: [CLIENT 7] conectado de 192.168.0.70:39008
+2025/10/21 21:54:12.761965 server.go:152: [RPC] CreateUser called: username=rubelas
+2025/10/21 21:54:12.762044 server.go:166: [RPC] Recovered session for username=rubelas id=1
+2025/10/21 21:54:12.762598 server.go:186: [RPC] GetUser called: Username=rubelas
+2025/10/21 21:54:12.762685 server.go:199: [RPC] GetUser ok: id=1 Username=rubelas 
+2025/10/21 21:54:12.763021 server.go:206: [RPC] ListUsers called
+2025/10/21 21:54:12.763088 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:54:13.763849 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:13.763940 server.go:145: [RPC] GetNewMessages ok: 3 msgs entregues, fila zerada
+2025/10/21 21:54:14.764644 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:14.764763 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:15.764344 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:15.764436 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:16.763653 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:16.763740 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:17.764503 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:17.764624 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:18.763929 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:18.764017 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:19.764549 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:19.764636 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:20.764130 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:20.764224 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:21.763739 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:21.763837 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:22.764381 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:22.764476 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:23.763997 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:23.764113 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:24.763834 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:24.763922 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:25.764521 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:25.764604 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:26.764188 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:26.764275 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:27.763942 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:27.764016 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:28.764519 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:28.764635 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:29.764246 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:29.764328 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:30.763791 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:30.763864 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:31.764358 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:31.764447 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:32.764018 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:32.764118 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:33.764586 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:33.764676 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:34.764157 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:34.764234 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:35.764000 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:35.764146 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:36.763606 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:36.763705 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:37.764263 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:37.764353 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:38.763940 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:38.764025 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:39.764664 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:39.764757 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:40.764256 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:40.764352 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:41.763900 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:41.763983 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:42.764444 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:42.764515 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:43.764014 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:43.764088 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:44.722232 server.go:84: [RPC] SendMessage called: UserMessage = bah ta meio estranho ainda parça, Sender= rubelas, Receiver= callidem
+2025/10/21 21:54:44.722327 server.go:116: [RPC] SendMessage ok: queued for callidem (queue=1)
+2025/10/21 21:54:44.764017 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:44.764088 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:45.764676 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:54:45.764764 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:46.726030 server.go:372: [CLIENT 7] desconectado (192.168.0.70:39008)
+2025/10/21 21:54:47.600896 server.go:364: [CLIENT 8] conectado de 192.168.0.70:54420
+2025/10/21 21:54:48.894755 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:54:48.894869 server.go:166: [RPC] Recovered session for username=callidem id=2
+2025/10/21 21:54:48.895427 server.go:186: [RPC] GetUser called: Username=callidem
+2025/10/21 21:54:48.895488 server.go:199: [RPC] GetUser ok: id=2 Username=callidem 
+2025/10/21 21:54:48.895749 server.go:206: [RPC] ListUsers called
+2025/10/21 21:54:48.895801 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:54:49.896705 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:49.896828 server.go:145: [RPC] GetNewMessages ok: 1 msgs entregues, fila zerada
+2025/10/21 21:54:50.896559 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:50.896675 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:51.897285 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:51.897371 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:52.896880 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:52.896970 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:53.896418 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:53.896505 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:54.896962 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:54.897068 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:55.896544 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:55.896632 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:56.897196 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:56.897283 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:57.896796 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:57.896863 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:58.897274 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:58.897379 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:54:59.896907 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:54:59.896995 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:00.896467 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:00.896594 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:01.897029 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:01.897122 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:02.896555 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:02.896654 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:03.897190 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:03.897379 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:04.896881 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:04.896964 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:05.896416 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:05.896539 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:06.896979 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:06.897052 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:07.896601 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:07.896690 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:08.897324 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:08.897428 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:09.897054 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:09.897156 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:10.896768 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:10.896891 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:11.896377 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:11.896455 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:12.896845 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:12.896924 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:13.896330 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:13.896411 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:14.896821 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:14.896910 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:15.896388 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:15.896482 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:16.896895 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:16.896971 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:17.896614 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:17.896716 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:18.897395 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:18.897493 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:19.897119 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:19.897217 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:20.896772 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:20.896858 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:21.897380 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:21.897472 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:22.897150 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:22.897248 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:23.896721 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:23.896814 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:24.897234 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:24.897320 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:25.896696 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:25.896775 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:26.897272 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:26.897356 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:27.896797 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:27.896871 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:28.897236 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:28.897309 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:29.896789 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:29.896895 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:30.897263 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:30.897357 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:31.896895 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:31.896979 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:32.896604 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:32.896701 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:33.897245 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:33.897323 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:34.896728 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:34.896810 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:35.897205 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:35.897284 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:36.896406 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:36.896492 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:37.896975 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:37.897056 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:38.896430 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:38.896505 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:39.896905 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:39.896984 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:40.896467 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:40.896788 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:41.896437 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:41.896523 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:42.896944 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:42.897017 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:43.896396 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:43.896469 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:44.896916 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:44.896996 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:45.896426 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:45.896510 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:46.897032 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:46.897118 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:47.896701 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:47.896804 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:48.897360 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:48.897452 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:49.896841 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:49.896916 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:50.896390 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:50.896466 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:51.897013 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:51.897110 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:52.896618 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:52.896697 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:53.897064 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:53.897135 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:54.896605 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:54.896700 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:55.897364 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:55.897476 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:56.897228 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:56.897316 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:57.896824 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:57.896908 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:58.896374 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:58.896472 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:55:59.899112 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:55:59.899219 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:00.896728 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:00.896808 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:01.897184 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:01.897258 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:02.896647 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:02.896723 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:03.896887 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:03.896968 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:04.896584 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:04.896754 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:05.897064 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:05.897166 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:06.896571 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:06.896651 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:07.897416 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:07.897513 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:08.897144 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:08.897238 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:09.896857 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:09.896951 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:10.896551 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:10.896673 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:11.897260 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:11.897335 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:12.896973 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:12.897103 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:13.896808 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:13.896953 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:14.896481 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:14.896563 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:15.897146 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:15.897253 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:16.896771 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:16.896932 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:17.896578 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:17.896665 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:18.897225 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:18.897350 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:19.896929 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:19.897015 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:20.896577 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:20.896718 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:21.897442 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:21.897532 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:22.897043 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:22.897135 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:23.896667 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:23.896737 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:24.897291 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:24.897394 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:25.897055 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:25.897151 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:26.896731 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:26.896817 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:27.897301 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:27.897423 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:28.897039 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:28.897130 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:29.896688 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:29.896767 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:30.897191 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:30.897285 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:31.896910 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:31.897001 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:32.896626 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:32.896712 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:33.897369 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:33.897496 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:34.896808 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:34.896943 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:35.896483 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:35.896557 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:36.896992 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:36.897056 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:37.896448 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:37.896555 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:38.897098 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:38.897210 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:39.896694 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:39.896812 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:40.897204 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:40.897276 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:41.896802 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:41.896888 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:42.866169 server.go:372: [CLIENT 8] desconectado (192.168.0.70:54420)
+2025/10/21 21:56:46.527519 server.go:364: [CLIENT 9] conectado de 192.168.0.70:35588
+2025/10/21 21:56:49.047423 server.go:152: [RPC] CreateUser called: username=callidem
+2025/10/21 21:56:49.047509 server.go:166: [RPC] Recovered session for username=callidem id=2
+2025/10/21 21:56:49.048010 server.go:186: [RPC] GetUser called: Username=callidem
+2025/10/21 21:56:49.048175 server.go:199: [RPC] GetUser ok: id=2 Username=callidem 
+2025/10/21 21:56:49.048457 server.go:206: [RPC] ListUsers called
+2025/10/21 21:56:49.048507 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:56:50.049223 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:50.049366 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:51.049098 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:51.049177 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:52.049752 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:52.049851 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:53.049463 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:53.049550 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:54.049203 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:54.049296 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:55.049975 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:55.050130 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:56.049820 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:56.049944 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:57.049442 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:57.049531 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:58.049032 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:58.049134 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:59.049587 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:56:59.049668 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:56:59.617418 server.go:84: [RPC] SendMessage called: UserMessage = caraio borracha agr acho q foi, Sender= callidem, Receiver= rubelas
+2025/10/21 21:56:59.617498 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=1)
+2025/10/21 21:57:00.049475 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:57:00.049568 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:01.049320 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:57:01.049438 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:02.050036 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:57:02.050153 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:03.049723 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:57:03.049800 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:04.049297 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:57:04.049417 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:05.050048 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:57:05.050138 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:06.049258 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:57:06.049384 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:06.362577 server.go:84: [RPC] SendMessage called: UserMessage = ve ai, Sender= callidem, Receiver= rubelas
+2025/10/21 21:57:06.362670 server.go:116: [RPC] SendMessage ok: queued for rubelas (queue=2)
+2025/10/21 21:57:07.048934 server.go:122: [RPC] GetNewMessages called: user=callidem
+2025/10/21 21:57:07.049085 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:07.365040 server.go:372: [CLIENT 9] desconectado (192.168.0.70:35588)
+2025/10/21 21:57:08.482838 server.go:364: [CLIENT 10] conectado de 192.168.0.70:58712
+2025/10/21 21:57:10.111902 server.go:152: [RPC] CreateUser called: username=rubelas
+2025/10/21 21:57:10.111983 server.go:166: [RPC] Recovered session for username=rubelas id=1
+2025/10/21 21:57:10.112483 server.go:186: [RPC] GetUser called: Username=rubelas
+2025/10/21 21:57:10.112562 server.go:199: [RPC] GetUser ok: id=1 Username=rubelas 
+2025/10/21 21:57:10.112849 server.go:206: [RPC] ListUsers called
+2025/10/21 21:57:10.112897 server.go:217: [RPC] ListUsers ok: count=2
+2025/10/21 21:57:11.113713 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:11.113805 server.go:145: [RPC] GetNewMessages ok: 2 msgs entregues, fila zerada
+2025/10/21 21:57:12.113687 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:12.113854 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:13.113634 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:13.113725 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:14.114251 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:14.114332 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:15.113919 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:15.114006 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:16.113517 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:16.113618 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:17.114241 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:17.114362 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:18.114355 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:18.114442 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:19.113978 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:19.114069 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:20.113540 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:20.113637 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:21.114199 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:21.114293 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:22.113793 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:22.113913 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:23.114518 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:23.114625 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:24.114016 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:24.114098 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:25.113595 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:25.113691 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:26.114220 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:26.114300 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:27.113499 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:27.113578 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:28.114003 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:28.114075 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:29.113399 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:29.113483 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:30.113560 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:30.113646 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:31.114156 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:31.114243 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:32.113811 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:32.113960 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:33.113485 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:33.113572 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:34.114069 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:34.114159 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:35.113744 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:35.113876 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:36.114475 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:36.114590 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:37.113551 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:37.113655 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:38.113632 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:38.113735 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:39.114293 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:39.114444 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:40.113884 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:40.113987 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:41.113446 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:41.113522 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:42.113952 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:42.114025 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:43.113505 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:43.113578 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:44.114070 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:44.114166 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:45.113601 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:45.113708 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:46.114161 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:46.114256 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:47.113761 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:47.113853 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:48.114327 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:48.114429 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:49.113921 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:49.114001 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:50.113492 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:50.113605 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:51.114107 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:51.114192 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:52.113699 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:52.113907 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:53.113755 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:53.113876 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:54.114437 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:54.114557 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:55.114129 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:55.114229 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:56.113919 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:56.114022 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:57.113688 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:57.113787 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:58.114361 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:58.114443 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:57:59.113988 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:57:59.114087 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:00.113670 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:00.113762 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:01.114280 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:01.114352 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:02.113958 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:02.114086 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:03.113660 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:03.113742 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:04.114412 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:04.114542 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:05.113975 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:05.114053 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:06.113596 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:06.113699 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:07.114287 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:07.114387 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:08.114001 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:08.114095 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:09.113650 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:09.113782 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:10.114184 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:10.114270 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:11.113707 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:11.113816 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:12.114239 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:12.114340 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:13.113752 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:13.113886 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:14.114398 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:14.114504 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:15.113674 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:15.113772 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:16.114289 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:16.114375 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:17.114054 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:17.114139 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:18.113600 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:18.113675 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:19.114115 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:19.114198 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:20.113617 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:20.113707 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:21.114086 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:21.114162 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:22.113463 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:22.113549 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:23.113979 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:23.114054 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:24.113542 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:24.113636 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:25.114066 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:25.114144 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:26.113551 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:26.113633 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:27.114042 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:27.114133 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:28.113551 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:28.113635 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:29.114019 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:29.114116 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:30.113590 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:30.113666 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:31.114042 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:31.114121 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:32.113568 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:32.113650 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:33.114064 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:33.114139 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:34.113818 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:34.113906 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:35.114286 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:35.114384 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:36.113962 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:36.114063 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:37.113583 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:37.113661 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:38.114136 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:38.114219 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:39.113658 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:39.113742 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:40.114025 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:40.114114 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:41.113689 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:41.113773 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:42.114229 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:42.114312 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:43.113768 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:43.113846 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:44.114377 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:44.114469 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:45.113936 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:45.114014 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:46.113604 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:46.113685 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:47.114210 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:47.114296 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:48.113708 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:48.113793 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:49.114202 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:49.114307 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:50.113702 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:50.113791 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:51.114254 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:51.114340 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:52.113930 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:52.114016 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:53.113687 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:53.113773 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:54.114415 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:54.114530 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:55.114132 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:55.114226 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:56.113930 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:56.114051 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:57.113735 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:57.113861 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:58.114461 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:58.114623 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:58:59.114194 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:58:59.114318 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:00.113958 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:00.114047 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:01.113595 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:01.113671 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:02.114025 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:02.114092 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:03.113518 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:03.113603 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:04.113621 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:04.113690 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:05.114227 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:05.114297 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:06.113764 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:06.113866 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:07.114073 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:07.114137 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:08.113510 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:08.113573 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:09.114041 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:09.114104 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:10.113605 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:10.113671 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:11.114116 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:11.114217 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:12.113739 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:12.113808 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:13.114330 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:13.114428 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:14.113963 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:14.114031 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:15.113565 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:15.113639 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:16.114118 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:16.114192 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:17.113556 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:17.113646 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:18.114640 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:18.114759 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:19.114269 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:19.114374 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:20.113864 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:20.113981 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:21.113367 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:21.113449 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:22.113934 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:22.114039 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:23.113520 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:23.113604 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:24.114104 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:24.114203 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:25.113521 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:25.113602 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:26.114025 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:26.114101 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:27.113490 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:27.113567 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:28.114168 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:28.114261 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:29.113722 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:29.113805 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:30.114304 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:30.114374 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:31.113822 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:31.113907 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:32.114362 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:32.114441 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:33.113881 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:33.113962 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:34.113655 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:34.113755 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:35.114301 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:35.114417 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:36.113894 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:36.113980 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:37.113411 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:37.113492 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:38.113909 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:38.113988 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:39.113418 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:39.113519 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:40.113439 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:40.113538 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:41.113568 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:41.113672 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:42.113495 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:42.113570 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:43.113989 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:43.114066 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:44.113642 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:44.113731 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:45.114331 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:45.114434 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:46.113925 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:46.114018 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:47.113554 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:47.113653 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:48.114201 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:48.114294 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:49.113984 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:49.114123 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:50.113649 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:50.113783 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:51.114292 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:51.114388 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:52.113973 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:52.114092 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:53.113522 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:53.113598 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:54.114040 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:54.114122 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:55.113525 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:55.113610 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:56.114021 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:56.114101 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:57.113480 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:57.113562 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:58.113902 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:58.113978 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 21:59:59.114439 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 21:59:59.114540 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:00.113920 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:00.114002 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:01.113491 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:01.113574 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:02.113962 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:02.114023 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:03.113441 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:03.113536 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:04.113958 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:04.114042 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:05.113547 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:05.113630 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:06.114140 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:06.114221 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:07.113663 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:07.113752 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:08.113627 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:08.113740 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:09.114317 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:09.114431 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:10.113972 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:10.114055 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:11.113653 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:11.113746 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:12.114275 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:12.114383 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:13.113909 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:13.114029 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:14.113417 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:14.113506 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:15.114086 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:15.114181 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:16.113696 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:16.113771 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:17.114340 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:17.114428 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:18.113672 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:18.113795 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:19.114305 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:19.114380 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:20.113871 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:20.113959 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:21.114552 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:21.114671 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:22.114174 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:22.114242 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:23.113708 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:23.113854 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:24.114418 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:24.114529 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:25.114157 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:25.114264 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:26.113671 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:26.113746 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:27.114261 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:27.114358 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:28.113924 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:28.114009 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:29.113496 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:29.113566 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:30.114111 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:30.114207 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:31.113762 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:31.113877 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:32.114347 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:32.114419 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:33.113966 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:33.114047 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:34.113610 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:34.113723 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:35.113657 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:35.113733 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:36.114207 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:36.114287 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:37.113736 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:37.113826 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:38.114378 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:38.114472 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:39.114075 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:39.114191 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:40.114226 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:40.114325 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:41.113962 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:41.114051 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:42.113704 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:42.113840 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:43.114512 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:43.114599 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:44.114021 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:44.114099 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:45.113525 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:45.113603 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:46.114144 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:46.114266 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:47.113885 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:47.113980 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:48.113589 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:48.113681 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:49.114274 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:49.114366 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:50.113917 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:50.114011 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:51.113638 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:51.113740 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:52.114400 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:52.114523 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:53.113918 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:53.113993 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:54.114415 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:54.114660 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:55.114258 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:55.114365 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:56.113931 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:56.114053 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:57.113602 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:57.113693 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:58.114293 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:58.114371 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:00:59.113795 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:00:59.113932 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:00.114426 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:00.114529 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:01.114025 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:01.114105 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:02.113639 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:02.113805 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:03.114321 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:03.114408 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:04.113879 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:04.113992 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:05.113511 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:05.113637 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:06.114363 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:06.114462 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:07.114038 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:07.114122 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:08.113582 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:08.113652 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:09.114350 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:09.114442 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:10.113942 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:10.114014 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:11.113526 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:11.113621 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:12.114092 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:12.114175 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:13.113805 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:13.113901 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:14.114439 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:14.114532 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:15.113991 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:15.114094 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:16.113731 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:16.113828 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:17.114346 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:17.114428 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:18.113826 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:18.113902 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:19.114413 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:19.114554 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:20.114273 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:20.114407 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:21.113920 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:21.114080 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:22.113598 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:22.113673 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:23.114076 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:23.114187 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:24.113740 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:24.113820 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:25.114228 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:25.114336 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:26.113782 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:26.113867 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:27.114149 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:27.114229 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:28.113670 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:28.113742 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:29.114156 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:29.114235 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:30.113611 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:30.113693 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:31.114096 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:31.114210 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:32.113841 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:32.113933 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:33.113604 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:33.113698 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:34.114266 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:34.114370 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:35.113948 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:35.114040 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:36.113573 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:36.113669 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:37.113692 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:37.113782 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:38.114336 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:38.114424 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:39.114056 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:39.114204 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:40.113795 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:40.113882 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:41.113545 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:41.113632 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:42.114186 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:42.114271 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:43.113944 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:43.114037 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:44.113681 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:44.113802 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:45.114452 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:45.114594 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:46.114131 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:46.114225 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:47.113905 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:47.114004 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:48.113647 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:48.113743 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:49.114441 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:49.114591 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:50.114162 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:50.114264 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:51.113788 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:51.113881 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:52.114533 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:52.114624 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:53.114115 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:53.114211 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:54.113792 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:54.113888 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:55.113475 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:55.113552 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:56.114171 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:56.114283 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:57.113877 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:57.113986 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:58.113701 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:58.113826 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:01:59.114507 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:01:59.114594 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:00.114230 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:02:00.114329 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:01.114004 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:02:01.114103 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:02.113833 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:02:02.113951 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:03.113682 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:02:03.113810 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:04.114536 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:02:04.114664 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:05.114095 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:02:05.114180 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:06.113767 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:02:06.113863 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:07.113425 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:02:07.113505 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:08.113466 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:02:08.113535 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:09.113703 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:02:09.113791 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:10.114393 server.go:122: [RPC] GetNewMessages called: user=rubelas
+2025/10/21 22:02:10.114544 server.go:135: [RPC] GetNewMessages ok: 0 msgs
+2025/10/21 22:02:10.305577 server.go:372: [CLIENT 10] desconectado (192.168.0.70:58712)
