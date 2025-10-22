@@ -1,4 +1,8 @@
 // Servidor RPC em Go para gerenciar "usuários" (players) com posição e cor.
+// Este servidor foi adaptado para atuar como um chat global: mensagens
+// enviadas por qualquer usuário são encaminhadas (broadcast) para todos
+// os demais usuários registrados. Mantém as mesmas chamadas RPC para
+// compatibilidade com clientes existentes.
 // Expõe métodos RPC para criar, buscar e listar usuários.
 // Também registra logs detalhados (em stdout e server.log) e mostra os IPs locais.
 
@@ -81,39 +85,49 @@ func (s *UserService) userExists(username string) (User, error) {
 }
 
 func (s *UserService) SendMessage(req *SendMessageRequest, _ *struct{}) error {
-	log.Printf("[RPC] SendMessage called: UserMessage = %s, Sender= %s, Receiver= %s", req.Message, req.Sender, req.Receiver)
+	// Agora o servidor age como um chat global: o campo Receiver é
+	// ignorado e a mensagem é replicada para todos os usuários
+	// registrados (exceto o próprio remetente).
+	log.Printf("[RPC] SendMessage called: UserMessage=%s, Sender=%s (broadcast)", req.Message, req.Sender)
 
 	s.mu.Lock()
 	defer s.mu.Unlock() // Garante unlock mesmo em erro/panic
 
-	// Valida remetente e destinatário existentes
+	// Valida apenas o remetente; os destinatários serão todos os
+	// usuários atuais (broadcast).
 	if _, err := s.userExists(req.Sender); err != nil {
 		log.Printf("[RPC] SendMessage erro: %v", err)
 		return err
 	}
-	if _, err := s.userExists(req.Receiver); err != nil {
-		log.Printf("[RPC] SendMessage erro: %v", err)
-		return err
-	}
 
-	// Enfileira
 	msg := Message{
 		From:     req.Sender,
-		To:       req.Receiver,
+		To:       "ALL",
 		Body:     req.Message,
 		SentUnix: time.Now().UnixNano(),
 	}
-	q := s.mailboxes[req.Receiver]
-	q = append(q, msg)
 
-	// Aplica limite FIFO
-	if len(q) > maxMailbox {
-		drop := len(q) - maxMailbox
-		q = q[drop:] // descarta as mais antigas
+	// Replica a mensagem nas mailboxes de todos os usuários
+	// registrados, exceto o próprio remetente (assim o cliente pode
+	// optar por mostrar eco local se quiser).
+	var delivered int
+	for username := range s.usernameToID {
+		if username == req.Sender {
+			continue
+		}
+		q := s.mailboxes[username]
+		q = append(q, msg)
+
+		// Aplica limite FIFO por mailbox
+		if len(q) > maxMailbox {
+			drop := len(q) - maxMailbox
+			q = q[drop:]
+		}
+		s.mailboxes[username] = q
+		delivered++
 	}
 
-	s.mailboxes[req.Receiver] = q
-	log.Printf("[RPC] SendMessage ok: queued for %s (queue=%d)", req.Receiver, len(q))
+	log.Printf("[RPC] SendMessage ok: broadcast from %s delivered to %d users", req.Sender, delivered)
 	return nil
 
 }
